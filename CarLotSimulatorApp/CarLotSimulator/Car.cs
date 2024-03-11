@@ -9,7 +9,7 @@ namespace CarLotSimulator
 
         public Car()
         {
-
+            ParkingLot.numberOfCars++;
         }
 
         public int Year { get; set; }

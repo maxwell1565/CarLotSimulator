@@ -51,6 +51,8 @@ namespace CarLotSimulator
             //Set the properties for each of the cars - done
             //Call each of the methods for each car - done
 
+            Console.WriteLine($"Cars created = {ParkingLot.numberOfCars}");
+
             foreach (var car in lot.Cars)
             {
                 Console.WriteLine($"Year: {car.Year}; Make: {car.Make}; Model: {car.Model}");
@@ -62,6 +64,8 @@ namespace CarLotSimulator
             chevy.MakeHonkNoise();
             toyota.MakeEngineNoise();
             toyota.MakeHonkNoise();
+
+            
 
             //*************BONUS*************//
 
